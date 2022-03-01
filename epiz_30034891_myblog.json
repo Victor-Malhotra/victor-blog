@@ -1,0 +1,71 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"epiz_30034891_myblog"},
+{"type":"table","name":"admin","database":"epiz_30034891_myblog","data":
+[
+{"id":"1","full_name":"Victor Malhotra","email":"victorrmalhotra@gmail.com","password":"DevVic05$"}
+]
+}
+,{"type":"table","name":"category","database":"epiz_30034891_myblog","data":
+[
+{"id":"10","name":"Travel"},
+{"id":"11","name":"Food"}
+]
+}
+,{"type":"table","name":"comments","database":"epiz_30034891_myblog","data":
+[
+{"id":"1","comment":"this is awesome article","name":"Monu Sharma","post_id":"21","created_at":"2021-02-20 14:08:11"},
+{"id":"2","comment":"i like thispost","name":"Sunidhi Chauhan","post_id":"21","created_at":"2021-02-20 14:08:11"},
+{"id":"3","comment":"this is a test comment","name":"Sonali Rana","post_id":"21","created_at":"2021-02-20 14:32:13"},
+{"id":"4","comment":"this is my first comment on this post","name":"Monu Giri","post_id":"4","created_at":"2021-02-20 14:33:31"},
+{"id":"5","comment":"this is my another comment","name":"Mohan Rana","post_id":"4","created_at":"2021-02-20 14:35:53"},
+{"id":"6","comment":"this was awesome i learned a lot","name":"Monu Giri","post_id":"20","created_at":"2021-02-20 14:36:37"},
+{"id":"7","comment":"i love it ","name":"Shruti Sharma","post_id":"20","created_at":"2021-02-20 14:36:52"},
+{"id":"8","comment":"it was awesome man","name":"Pankaj Udas","post_id":"20","created_at":"2021-02-20 14:37:48"},
+{"id":"9","comment":"i like this post","name":"Piyush Raj","post_id":"20","created_at":"2021-02-20 14:38:05"},
+{"id":"10","comment":"this is super cool","name":"Shivam Sharma","post_id":"20","created_at":"2021-02-20 14:38:21"},
+{"id":"11","comment":"yeah i like this ","name":"Adity Bisht","post_id":"20","created_at":"2021-02-20 14:38:38"},
+{"id":"12","comment":"sdsd","name":"sdsd","post_id":"21","created_at":"2021-02-23 11:31:47"},
+{"id":"13","comment":"sf","name":"Victor Malhotra","post_id":"20","created_at":"2021-12-26 05:17:40"},
+{"id":"14","comment":"First Comment","name":"Victor Malhotra","post_id":"37","created_at":"2021-12-26 06:33:12"},
+{"id":"15","comment":"First Comment","name":"Victor Malhotra","post_id":"38","created_at":"2021-12-26 10:36:04"},
+{"id":"16","comment":"First Comment","name":"Victor Malhotra","post_id":"42","created_at":"2022-01-02 21:44:53"},
+{"id":"17","comment":"werewr","name":"esr","post_id":"1","created_at":"2022-02-28 20:20:56"},
+{"id":"18","comment":"fgvhgfc","name":"Bridget","post_id":"2","created_at":"2022-02-28 20:30:37"},
+{"id":"19","comment":"vgybh","name":"hggh","post_id":"2","created_at":"2022-02-28 20:30:50"}
+]
+}
+,{"type":"table","name":"images","database":"epiz_30034891_myblog","data":
+[
+{"id":"51","post_id":"42","image":"1.jpg"},
+{"id":"52","post_id":"42","image":"2.jpg"},
+{"id":"53","post_id":"42","image":"3.jpg"},
+{"id":"54","post_id":"42","image":"4.jpg"},
+{"id":"55","post_id":"42","image":"logo-big.png"},
+{"id":"56","post_id":"1","image":"Palette (1).png"},
+{"id":"57","post_id":"1","image":"image.png"},
+{"id":"58","post_id":"1","image":"Victor_WMLogo.png"},
+{"id":"59","post_id":"2","image":"A-Faster-Way-Forward.jpg"},
+{"id":"60","post_id":"2","image":"A-Faster-Way-Forward.png"},
+{"id":"61","post_id":"2","image":"Arrows Icons Black (1).jpg"}
+]
+}
+,{"type":"table","name":"menu","database":"epiz_30034891_myblog","data":
+[
+{"id":"1","name":"Home","action":"index.php"},
+{"id":"3","name":"Categories","action":"#"},
+{"id":"5","name":"Admin","action":"admin\/"}
+]
+}
+,{"type":"table","name":"posts","database":"epiz_30034891_myblog","data":
+[
+
+]
+}
+,{"type":"table","name":"submenu","database":"epiz_30034891_myblog","data":
+[
+{"id":"7","parent_menu_id":"3","name":"Food","action":"#"},
+{"id":"8","parent_menu_id":"3","name":"Travel","action":"#"}
+]
+}
+]
